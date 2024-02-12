@@ -10,7 +10,6 @@ application = Flask(__name__)
 app = application
 
 ## Routing for home page 
-
 @app.route('/')
 def index():
     return render_template('index.html')
